@@ -1,0 +1,1 @@
+print("Codespaces is awesome")/workspaces/CSP-Projects/Test Folder/Variables Practice
