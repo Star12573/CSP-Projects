@@ -3,7 +3,7 @@
 int main(void) {
     char name[30];
     printf("Please tell me your name: \n");
-    scanf("%s", name);
+    fgets(name,sizeof(name), stdin );
     printf("Hello %s", name);
     return 0;
 }
