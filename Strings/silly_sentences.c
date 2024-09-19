@@ -16,7 +16,7 @@ printf("Type a noun: \n");
 scanf(noun, sizeof(noun), stdin);
 scanf("%s", noun);
 strcat(sentence, name);
-strcat(sentence, " went to the ");
+strcat(sentence, " went to ");
 strcat(sentence, place);
 strcat(sentence, " where they ");
 strcat(sentence, verb);
