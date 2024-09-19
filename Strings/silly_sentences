@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(void){
+char name, place, verb, noun;
+printf("Type a name: ");
+scanf("%s", name);
+printf("Type a place: ");
+scanf("%s", place);
+printf("Type a verb: ");
+scanf("%s", verb);
+printf("Type a noun: ");
+scanf("%s", noun);
+printf("%S went to the %s where he %s, and bought a %s.", name, place, verb, noun);
+
+return 0;
+}
