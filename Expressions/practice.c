@@ -1,6 +1,10 @@
 #include<stdio.h>
 
-int main(void){;
-printf("Hello world!");
+int main(void){
+    int x, y, w;
+    x = 2;
+    y = 40;
+    w = 4365;
+    printf("%f", (float) x* (float )y);
 return 0;
 }
