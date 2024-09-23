@@ -5,6 +5,6 @@ int main(void){
     x = 2;
     y = 40;
     w = 4365;
-    printf("%f", (float) x* (float )y);
+    printf("%f", (float)  x*y);
 return 0;
 }
