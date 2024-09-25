@@ -13,6 +13,7 @@ numTwelve = 9
 numThirteen = 17
 numFourteen = 15
 numFifteen = 22
+numSixteen = 1
 print(7-24/8*4 +6)
 print(18/3-7+2*5)
 print(6*4/12+72/8-9)
