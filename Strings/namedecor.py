@@ -1,23 +1,10 @@
-name = "<<Sierra>>"
-print(name)
+Name = input("What is your name?: ")
 
-name = "(((Sierra)))"
-print(name)
 
-name = "---Sierra---"
-print(name)
 
-name = ":):)Sierra:):)"
-print(name)
+print("Hello <<<"+Name+ ">>>!")
+Name = input("What is your name?: ")
 
-name = "###Sierra###"
-print(name)
 
-name = "+++Sierra+++"
-print(name)
 
-name = "~~~Sierra~~~"
-print(name)
-
-name = "===Sierra==="
-print(name)
+print("Hello <<<"+Name+ ">>>!")
