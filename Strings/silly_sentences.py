@@ -1,0 +1,7 @@
+Sentence = input("Create a MADLIB!")
+Name = input("Type a name: \n")
+Place = input("Type a place: \n")
+Verb = input("Type a verb: \n")
+Noun = input("Type a noun: \n")
+str(Sentence, Name)
+str(Sentence, " went to")
