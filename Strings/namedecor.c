@@ -5,33 +5,12 @@ int main(void) {
     printf("Please tell me your name: \n");
     fgets(name,sizeof(name), stdin );
     printf("Hello <<<%s>>>\n", name);
-
-    printf("Please tell me your name: \n");
-    fgets(name,sizeof(name), stdin );
     printf("Hello (((%s)))\n", name);
-
-    printf("Please tell me your name: \n");
-    fgets(name,sizeof(name), stdin );
     printf("Hello ---%s---\n", name);
-
-    printf("Please tell me your name: \n");
-    fgets(name,sizeof(name), stdin );
     printf("Hello :):)%s:):)\n", name);
-
-    printf("Please tell me your name: \n");
-    fgets(name,sizeof(name), stdin );
     printf("Hello ###%s###\n", name);
-
-    printf("Please tell me your name: \n");
-    fgets(name,sizeof(name), stdin );
     printf("Hello +++%s+++\n", name);
-
-    printf("Please tell me your name: \n");
-    fgets(name,sizeof(name), stdin );
     printf("Hello ~~~%s~~~\n", name);
-    
-    printf("Please tell me your name: \n");
-    fgets(name,sizeof(name), stdin );
     printf("Hello ===%s===\n", name);
     return 0;
 }
