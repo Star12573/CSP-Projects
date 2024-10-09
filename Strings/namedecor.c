@@ -5,13 +5,13 @@ int main(void) {
     printf("Please tell me your name: \n");
     scanf("%s", &name);
     strcat(sentence, name);
-    printf("Hello <<<%s>>>\n");
-    printf("Hello (((%s)))\n");
-    printf("Hello ---%s---\n");
-    printf("Hello :):)%s:):)\n");
-    printf("Hello ###%s###\n");
-    printf("Hello +++%s+++\n");
-    printf("Hello ~~~%s~~~\n");
-    printf("Hello ===%s===\n");
+    printf("Hello <<<%s>>>\n", name, sentence);
+    printf("Hello (((%s)))\n",name, sentence);
+    printf("Hello ---%s---\n", name, sentence);
+    printf("Hello :):)%s:):)\n", name, sentence);
+    printf("Hello ###%s###\n", name, sentence);
+    printf("Hello +++%s+++\n", name, sentence);
+    printf("Hello ~~~%s~~~\n", name, sentence);
+    printf("Hello ===%s===\n", name, sentence);
     return 0;
 }
