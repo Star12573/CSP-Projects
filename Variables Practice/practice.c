@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    n
+    int num, numTwo, cereal, color, colorTwo, colorThree, school, year, age, subject;
     char name[] = "Sierra Steck";
     num = 4;
     numTwo = 214;
