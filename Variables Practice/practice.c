@@ -1,18 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-    int num, numTwo, cereal, color, colorTwo, colorThree, school, year, age, subject;
-    char name[] = "Sierra Steck";
-    int num = 4;
-    int numTwo = 214;
-    int cereal = "Captain Crunch";
-    int color = "soft blue";
-    int colorTwo = "baby blue";
-    int colorThree = "blue";
-    int school = "UCAS; Utah County Academy of Sciences";
-    int year = 2024;
-    int age = 15;
-    int subject = "Health";
+    char name[] = "Sierra Steck", num[] = 4, numTwo[] = 214, cereal[] = "Captain Crunch", color[] = "soft blue", colorTwo[] = "baby blue", colorThree[] = "blue", school[] = "Utah County Academy of Sciences", year[] = 2024, age[] = 15, subject[] = "Health";
+ 
     printf("Hello! My name is", name,"!\n");
     printf("My favorite numbers between 1 and 10 and 100 and 1,000 are:", num, "and", numTwo,".\n");
     printf("For breakfast, I had", cereal,".\n");
