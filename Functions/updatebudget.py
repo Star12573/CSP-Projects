@@ -1,17 +1,16 @@
-income = int (input("Hello and welcome to your financial calculator! What is your monthly income?: \n"))
-rent = int (input("What is your monthly rent?: \n"))
-utilities = int (input("What is your monthly utilities?: \n"))
-groceries = int (input("What is your monthly groceries?: \n"))
-transportation = int (input("What is your monthly transportation costs?: \n"))
+def budget(type, int):
+    budget = int, type
+    
+input("How much is your {type}?: \n")
+
+income = ("Hello and welcome to your financial calculator! What is your monthly income?: \n")
+rent = ("What is your monthly rent?: \n")
+utilities = ("What is your monthly utilities?: \n")
+groceries = ("What is your monthly groceries?: \n")
+transportation = ("What is your monthly transportation costs?: \n")
 expenses = rent+transportation+groceries+utilities
 savings = income*2
 spending = income-expenses-savings
-prent = rent/income*100
-putilities = utilities/income*100
-pgroceries = groceries/income*100
-ptransportation = transportation/income*100
-pexpenses = expenses/income*100
-psavings = savings/income*100
 def percent(type, amount):
     per = amount/income*100
 

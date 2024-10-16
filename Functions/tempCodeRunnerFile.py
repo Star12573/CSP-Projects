@@ -1,0 +1,5 @@
+ = ("Hello and welcome to your financial calculator! What is your monthly income?: \n")
+rent = ("What is your monthly rent?: \n")
+utilities = ("What is your monthly utilities?: \n")
+groceries = ("What is your monthly groceries?: \n")
+transportation = ("What is your monthly transportation costs?: \n")
