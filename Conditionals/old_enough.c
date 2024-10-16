@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+int age;
+
 int main (){
-    char age[30];
     printf("Please tell me how old you are: \n");
-    scanf("%s", &age);
+    scanf("%d",&age);
 if (age >= 18){
     printf("You're old enough to vote!\n");
 }else if (age >= 16){
