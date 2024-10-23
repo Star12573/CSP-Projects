@@ -1,3 +1,9 @@
-One = input("Give me a number: \n")
-Two = input("Give me a word: \n")
-Three = input("Give me another word: \n")
+for x in range(1, 51):
+    if x % 3 == 0:
+        print("Fizz")
+    elif x % 5 == 0:
+        print("Buzz")
+    elif x % 3 == 0 and x % 5 == 0:
+        print("FizzBuzz")
+    else:
+        print(x)
